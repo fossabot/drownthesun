@@ -93,6 +93,17 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./css/tailwind.css":
+/*!**************************!*\
+  !*** ./css/tailwind.css ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
@@ -107,6 +118,18 @@ function _interopRequireDefault(obj) {
 }
 
 module.exports = _interopRequireDefault;
+
+/***/ }),
+
+/***/ "./node_modules/next/app.js":
+/*!**********************************!*\
+  !*** ./node_modules/next/app.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./dist/pages/_app */ "./node_modules/next/dist/pages/_app.js")
+
 
 /***/ }),
 
@@ -381,14 +404,60 @@ function createUrl(router) {
 
 /***/ }),
 
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _css_tailwind_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/tailwind.css */ "./css/tailwind.css");
+/* harmony import */ var _css_tailwind_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_tailwind_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/app */ "./node_modules/next/app.js");
+/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/pages/_app.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+
+
+class MyApp extends next_app__WEBPACK_IMPORTED_MODULE_1___default.a {
+  render() {
+    const {
+      Component,
+      pageProps
+    } = this.props;
+    return __jsx(Component, _extends({}, pageProps, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 16
+      }
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (MyApp);
+
+/***/ }),
+
 /***/ 0:
-/*!**********************************!*\
-  !*** multi next/dist/pages/_app ***!
-  \**********************************/
+/*!****************************************!*\
+  !*** multi private-next-pages/_app.js ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next/dist/pages/_app */"./node_modules/next/dist/pages/_app.js");
+module.exports = __webpack_require__(/*! private-next-pages/_app.js */"./pages/_app.js");
 
 
 /***/ }),

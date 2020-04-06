@@ -1,16 +1,12 @@
+import Footer from "./Footer"
 import Header from "./Header"
 import React from "react"
 
-const layoutStyle = {
-    margin: 20,
-    padding: 20,
-    border: "1px solid #DDD",
-}
-
 const Layout = (props: any) => (
-    <div style={layoutStyle}>
+    <div className="w-full">
         <Header></Header>
         {props.children}
+        <Footer></Footer>
     </div>
 )
 export default Layout
