@@ -1,413 +1,5 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./components/FacebookIcon.tsx":
-/*!*************************************!*\
-  !*** ./components/FacebookIcon.tsx ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/FacebookIcon.tsx";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var FacebookIcon = function FacebookIcon(props) {
-  return __jsx("div", {
-    className: props.className,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 5
-    }
-  }, __jsx("svg", {
-    viewBox: "0 0 24 24",
-    xmlns: "http://www.w3.org/2000/svg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 9
-    }
-  }, __jsx("path", {
-    d: "M23.998 12c0-6.628-5.372-12-11.999-12C5.372 0 0 5.372 0 12c0 5.988 4.388 10.952 10.124 11.852v-8.384H7.078v-3.469h3.046V9.356c0-3.008 1.792-4.669 4.532-4.669 1.313 0 2.686.234 2.686.234v2.953H15.83c-1.49 0-1.955.925-1.955 1.874V12h3.328l-.532 3.469h-2.796v8.384c5.736-.9 10.124-5.864 10.124-11.853z",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 13
-    }
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (FacebookIcon);
-
-/***/ }),
-
-/***/ "./components/Footer.tsx":
-/*!*******************************!*\
-  !*** ./components/Footer.tsx ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/Footer.tsx";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var Footer = function Footer() {
-  return __jsx("div", {
-    className: "fixed bottom-0 left-0 w-full bg-carbon-900",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 5
-    }
-  }, __jsx("div", {
-    className: "flex flex-col items-center justify-center py-4 sm:flex-row",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 9
-    }
-  }, __jsx("h1", {
-    className: "text-xs font-bold text-carbon-600 uppercase",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 13
-    }
-  }, "Navbar Styles:"), __jsx("button", {
-    className: "bg-carbon-700 flex flex-row items-center px-3 py-2 ml-4 text-white rounded-lg hover:bg-carbon-700 focus:bg-carbon-700 focus:outline-none",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 13
-    }
-  }, __jsx("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    className: "w-5 h-5 mt-0.5 mr-2",
-    viewBox: "0 0 24 24",
-    fill: "none",
-    stroke: "currentColor",
-    strokeWidth: "2",
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 17
-    }
-  }, __jsx("path", {
-    d: "M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 21
-    }
-  })), "Dark with light Dropdowns"), __jsx("button", {
-    className: "bg-carbon-700 flex flex-row items-center px-3 py-2 ml-4 text-white rounded-lg hover:bg-carbon-700 focus:bg-carbon-700 focus:outline-none",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 13
-    }
-  }, __jsx("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    className: "w-5 h-5 mt-0.5 mr-2",
-    viewBox: "0 0 24 24",
-    fill: "currentColor",
-    stroke: "currentColor",
-    strokeWidth: "2",
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 17
-    }
-  }, __jsx("path", {
-    d: "M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 21
-    }
-  })), "Dark with dark dropdowns")));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Footer);
-
-/***/ }),
-
-/***/ "./components/Header.tsx":
-/*!*******************************!*\
-  !*** ./components/Header.tsx ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/Header.tsx";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var linkStyle = {
-  marginRight: 15
-};
-
-var Header = function Header() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
-      open = _useState[0],
-      setOpen = _useState[1];
-
-  var toggleMenu = function toggleMenu() {
-    return setOpen(!open);
-  };
-
-  return __jsx("nav", {
-    className: "bg-carbon-800 shadow-xl",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "container px-6 mx-auto lg:px-8",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 13
-    }
-  }, __jsx("div", {
-    className: "flex items-center justify-between h-16",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 17
-    }
-  }, __jsx("div", {
-    className: "flex justify-between items-center flex-grow",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "flex-shrink-0",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 25
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 29
-    }
-  }, __jsx("h1", {
-    className: "text-lg font-semibold tracking-widest text-white uppercase",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 33
-    }
-  }, __jsx("a", {
-    href: "#",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 37
-    }
-  }, "Drown The Sun")))), __jsx("div", {
-    className: "text-2xl font-bold text-carbon-200 md:text-3xl",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 25
-    }
-  }), __jsx("div", {
-    className: "md:hidden",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 25
-    }
-  }, __jsx("button", {
-    type: "button",
-    className: "block text-carbon-200 hover:text-carbon-700 focus:text-carbon-700 focus:outline-none",
-    onClick: toggleMenu,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 29
-    }
-  }, __jsx("svg", {
-    className: "h-6 w-6 fill-current",
-    viewBox: "0 0 24 24",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 33
-    }
-  }, open ? __jsx("path", {
-    d: "M16.24 14.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 0 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12l2.83 2.83z",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 41
-    }
-  }) : __jsx("path", {
-    d: "M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 41
-    }
-  }))))), __jsx("div", {
-    className: "flex flex-col md:flex-row md:block -mx-2  ".concat(open ? "block" : "hidden"),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 21
-    }
-  }, __jsx("div", {
-    className: "container px-6 mx-auto",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 25
-    }
-  }, __jsx("a", {
-    href: "#",
-    className: "text-carbon-200 rounded hover:bg-carbon-900 hover:text-carbon-100 hover:font-medium py-2 px-2 md:mx-2",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 29
-    }
-  }, "Home"), __jsx("a", {
-    href: "#",
-    className: "text-carbon-200 rounded hover:bg-carbon-900 hover:text-carbon-100 hover:font-medium py-2 px-2 md:mx-2",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 29
-    }
-  }, "About"), __jsx("a", {
-    href: "#",
-    className: "text-carbon-200 rounded hover:bg-carbon-900 hover:text-carbon-100 hover:font-medium py-2 px-2 md:mx-2",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 29
-    }
-  }, "Contact"))))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Header);
-
-/***/ }),
-
-/***/ "./components/InstagramIcon.tsx":
-/*!**************************************!*\
-  !*** ./components/InstagramIcon.tsx ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/InstagramIcon.tsx";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var InstagramIcon = function InstagramIcon(props) {
-  return __jsx("div", {
-    className: props.className,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 5
-    }
-  }, __jsx("svg", {
-    viewBox: "0 0 24 24",
-    xmlns: "http://www.w3.org/2000/svg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 9
-    }
-  }, __jsx("path", {
-    d: "M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913a5.885 5.885 0 001.384 2.126A5.868 5.868 0 004.14 23.37c.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558a5.898 5.898 0 002.126-1.384 5.86 5.86 0 001.384-2.126c.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913a5.89 5.89 0 00-1.384-2.126A5.847 5.847 0 0019.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227a3.81 3.81 0 01-.899 1.382 3.744 3.744 0 01-1.38.896c-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421a3.716 3.716 0 01-1.379-.899 3.644 3.644 0 01-.9-1.38c-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678a6.162 6.162 0 100 12.324 6.162 6.162 0 100-12.324zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405a1.441 1.441 0 01-2.88 0 1.44 1.44 0 012.88 0z",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 13
-    }
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (InstagramIcon);
-
-/***/ }),
-
 /***/ "./components/Layout.tsx":
 /*!*******************************!*\
   !*** ./components/Layout.tsx ***!
@@ -417,293 +9,225 @@ var InstagramIcon = function InstagramIcon(props) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer */ "./components/Footer.tsx");
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.tsx");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _this = undefined,
     _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/Layout.tsx";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
-
-
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var Layout = function Layout(props) {
   return __jsx("div", {
-    className: "w-full",
+    className: "w-full h-full",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 5
+      lineNumber: 5,
+      columnNumber: 32
     }
-  }, __jsx(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 9
-    }
-  }), props.children, __jsx(_Footer__WEBPACK_IMPORTED_MODULE_0__["default"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 9
-    }
-  }));
+  }, props.children);
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
 /***/ }),
 
-/***/ "./components/SocialMedia.tsx":
-/*!************************************!*\
-  !*** ./components/SocialMedia.tsx ***!
-  \************************************/
+/***/ "./components/Navbar.tsx":
+/*!*******************************!*\
+  !*** ./components/Navbar.tsx ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _FacebookIcon__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FacebookIcon */ "./components/FacebookIcon.tsx");
-/* harmony import */ var _InstagramIcon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./InstagramIcon */ "./components/InstagramIcon.tsx");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _SpotifyIcon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./SpotifyIcon */ "./components/SpotifyIcon.tsx");
-/* harmony import */ var _TwitterIcon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./TwitterIcon */ "./components/TwitterIcon.tsx");
-/* harmony import */ var _YouTubeIcon__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./YouTubeIcon */ "./components/YouTubeIcon.tsx");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _NavbarButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavbarButton */ "./components/NavbarButton.tsx");
 var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/SocialMedia.tsx";
+    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/Navbar.tsx";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
-
-
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+var linkStyle = {
+  marginRight: 15
+};
 
+var Navbar = function Navbar() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      open = _useState[0],
+      setOpen = _useState[1];
 
+  var toggleMenu = function toggleMenu() {
+    return setOpen(!open);
+  };
 
-var SocialMedia = function SocialMedia() {
-  return __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 5
-    }
-  }, __jsx("span", {
-    className: "uppercase text-carbon-100 font-bold text-sm",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 9
-    }
-  }, "Social Media"), __jsx("div", {
-    className: "flex items-center mt-2 text-carbon-200 fill-current",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 9
-    }
-  }, __jsx(_FacebookIcon__WEBPACK_IMPORTED_MODULE_0__["default"], {
-    className: "w-8 h-8",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 13
-    }
-  }), __jsx(_TwitterIcon__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: "w-8 h-8 ml-4",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 13
-    }
-  }), __jsx(_YouTubeIcon__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    className: "w-8 h-8 ml-4",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 13
-    }
-  }), __jsx(_InstagramIcon__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    className: "w-8 h-8 ml-4",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 13
-    }
-  }), __jsx(_SpotifyIcon__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    className: "w-8 h-8 ml-4",
+  return __jsx("nav", {
+    className: "relative flex items-center justify-between sm:h-10 lg:justify-start",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "flex items-center flex-grow flex-shrink-0 lg:flex-grow-0",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
       columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "flex items-center justify-between w-full md:w-auto",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 17
+    }
+  }, __jsx("a", {
+    href: "#",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 21
+    }
+  }, __jsx("img", {
+    className: "h-8 w-auto sm:h-10",
+    src: "public/img/logo.png",
+    alt: "",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 25
+    }
+  })), __jsx("div", {
+    className: "-mr-2 flex items-center md:hidden",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 21
+    }
+  }, __jsx("button", {
+    onClick: toggleMenu,
+    className: "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 25
+    }
+  }, __jsx("svg", {
+    className: "h-6 w-6",
+    stroke: "currentColor",
+    fill: "none",
+    viewBox: "0 0 24 24",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 29
+    }
+  }, __jsx("path", {
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "2",
+    d: "M4 6h16M4 12h16M4 18h16",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28,
+      columnNumber: 33
+    }
+  })))))), __jsx("div", {
+    className: "hidden md:block md:ml-10 md:pr-4",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 13
+    }
+  }, __jsx(_NavbarButton__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    href: "#",
+    name: "Music",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 17
+    }
+  }), __jsx(_NavbarButton__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    href: "/tour",
+    name: "Tour",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41,
+      columnNumber: 17
+    }
+  }), __jsx(_NavbarButton__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    href: "#",
+    name: "Contact",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 17
     }
   })));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (SocialMedia);
+/* harmony default export */ __webpack_exports__["default"] = (Navbar);
 
 /***/ }),
 
-/***/ "./components/SpotifyIcon.tsx":
-/*!************************************!*\
-  !*** ./components/SpotifyIcon.tsx ***!
-  \************************************/
+/***/ "./components/NavbarButton.tsx":
+/*!*************************************!*\
+  !*** ./components/NavbarButton.tsx ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/SpotifyIcon.tsx";
+    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/NavbarButton.tsx";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
-var SpotifyIcon = function SpotifyIcon(props) {
-  return __jsx("div", {
-    className: props.className,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 5
-    }
-  }, __jsx("svg", {
-    viewBox: "0 0 24 24",
-    xmlns: "http://www.w3.org/2000/svg",
+
+var NavbarButton = function NavbarButton(props) {
+  return __jsx(next_link__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    href: props.href,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9,
-      columnNumber: 9
-    }
-  }, __jsx("path", {
-    d: "M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 13
-    }
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (SpotifyIcon);
-
-/***/ }),
-
-/***/ "./components/TwitterIcon.tsx":
-/*!************************************!*\
-  !*** ./components/TwitterIcon.tsx ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/TwitterIcon.tsx";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var TwitterIcon = function TwitterIcon(props) {
-  return __jsx("div", {
-    className: props.className,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
       columnNumber: 5
     }
-  }, __jsx("svg", {
-    viewBox: "0 0 24 24",
-    xmlns: "http://www.w3.org/2000/svg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 9
-    }
-  }, __jsx("path", {
-    d: "M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z",
+  }, __jsx("a", {
+    className: "ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10,
-      columnNumber: 13
-    }
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (TwitterIcon);
-
-/***/ }),
-
-/***/ "./components/YouTubeIcon.tsx":
-/*!************************************!*\
-  !*** ./components/YouTubeIcon.tsx ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/YouTubeIcon.tsx";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var YouTubeIcon = function YouTubeIcon(props) {
-  return __jsx("div", {
-    className: props.className,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 5
-    }
-  }, __jsx("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 24 24",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
       columnNumber: 9
     }
-  }, __jsx("path", {
-    d: "M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 13
-    }
-  })));
+  }, props.name));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (YouTubeIcon);
+/* harmony default export */ __webpack_exports__["default"] = (NavbarButton);
 
 /***/ }),
 
@@ -5205,220 +4729,348 @@ try {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.tsx");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_SocialMedia__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/SocialMedia */ "./components/SocialMedia.tsx");
-
-
+/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Navbar */ "./components/Navbar.tsx");
 var _this = undefined,
     _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/pages/index.tsx";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
+var Home = function Home() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      open = _useState[0],
+      setOpen = _useState[1];
 
+  var toggleMenu = function toggleMenu() {
+    return setOpen(!open);
+  };
 
-var Home = function Home(_ref) {
-  var userAgent = _ref.userAgent;
   return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 5
-    }
-  }, __jsx("div", {
-    className: "flex bg-carbon-900 flex-grow",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 17,
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: "flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2",
+    className: "relative bg-carbon-900 overflow-hidden",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 18,
       columnNumber: 13
     }
   }, __jsx("div", {
+    className: "max-w-screen-xl mx-auto ",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
+      lineNumber: 19,
       columnNumber: 17
     }
-  }, __jsx("h2", {
-    className: "text-3xl font-semibold text-orange-100 md:text-4xl uppercase",
+  }, __jsx("div", {
+    className: "relative z-10 pb-8 bg-carbon-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 20,
       columnNumber: 21
     }
-  }, "Drown the ", __jsx("span", {
-    className: "text-orange-500",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 35
-    }
-  }, "sun")), __jsx("p", {
-    className: "mt-2 text-sm text-carbon-200 md:text-base",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 21
-    }
-  }, "Drown the Sun ist eine Metal-Band aus N\xFCrnberg, die 2016 von Bernhard Leupold. Daniele Forestieri, Jannik Kolb, Merlin Hattermann und Robert Schmidt gegr\xFCndet wurde."), __jsx("div", {
-    className: "flex justify-center lg:justify-start mt-6",
+  }, __jsx("div", {
+    className: "pt-6 px-4 sm:px-6 lg:px-8",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 21
+      columnNumber: 25
     }
-  }, __jsx("a", {
-    className: "px-6 py-4 bg-carbon-900 text-carbon-200 text-xs font-semibold hover:bg-carbon-800",
-    href: "#",
+  }, __jsx(_components_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
+      columnNumber: 29
+    }
+  })), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
       columnNumber: 25
     }
-  }, "Get Started"), __jsx("a", {
-    className: "mx-4 px-6 py-4 bg-carbon-100 text-carbon-900 text-xs font-semibold hover:bg-orange-500",
-    href: "#",
+  }, __jsx("div", {
+    className: "rounded-lg shadow-md ".concat(open ? "" : "hidden"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 29
+    }
+  }, __jsx("div", {
+    className: "rounded-lg bg-white shadow-xs overflow-hidden m-4",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 33
+    }
+  }, __jsx("div", {
+    className: "px-5 pt-4 flex items-center justify-between hidden",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28,
-      columnNumber: 25
-    }
-  }, "Play Music")), __jsx("div", {
-    className: "flex justify-between items-center mt-40 mb-6",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 21
+      columnNumber: 37
     }
   }, __jsx("div", {
-    className: "text-carbon-100 font-bold text-sm",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 25
+      lineNumber: 29,
+      columnNumber: 41
     }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "#",
+  }, __jsx("img", {
+    className: "h-8 w-auto",
+    src: "public/img/logo.png",
+    alt: "",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
-      columnNumber: 29
+      lineNumber: 30,
+      columnNumber: 45
     }
-  }, __jsx("a", {
-    className: "mx-2",
+  })), __jsx("div", {
+    className: "-mr-2",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 41
+    }
+  }, __jsx("button", {
+    onClick: toggleMenu,
+    type: "button",
+    className: "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33,
+      columnNumber: 45
+    }
+  }, __jsx("svg", {
+    className: "h-6 w-6",
+    stroke: "currentColor",
+    fill: "none",
+    viewBox: "0 0 24 24",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38,
-      columnNumber: 33
+      columnNumber: 49
     }
-  }, "contact@drownthesun.com")), __jsx("span", {
-    className: "mx-2",
+  }, __jsx("path", {
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "2",
+    d: "M6 18L18 6M6 6l12 12",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 29
+      lineNumber: 44,
+      columnNumber: 53
     }
-  }, "+49 123 456 789")), __jsx(_components_SocialMedia__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }))))), __jsx("div", {
+    className: "px-2 pt-2 pb-3",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 54,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#",
+    className: "block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
+      columnNumber: 41
+    }
+  }, "Product"), __jsx("a", {
+    href: "#",
+    className: "mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 41
+    }
+  }, "Features"), __jsx("a", {
+    href: "#",
+    className: "mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67,
+      columnNumber: 41
+    }
+  }, "Marketplace"), __jsx("a", {
+    href: "#",
+    className: "mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 41
+    }
+  }, "Company")), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#",
+    className: "block w-full px-5 py-3 text-center font-medium text-red-600 bg-gray-50 hover:bg-gray-100 hover:text-red-700 focus:outline-none focus:bg-gray-100 focus:text-red-700 transition duration-150 ease-in-out",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81,
+      columnNumber: 41
+    }
+  }, "Log in"))))), __jsx("div", {
+    className: "mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92,
       columnNumber: 25
     }
-  })))), __jsx("div", {
-    className: "hidden lg:block lg:w-1/2",
-    style: {
-      clipPath: "polygon(10% 0, 100% 0%, 100% 100%, 0 100%)"
-    },
+  }, __jsx("div", {
+    className: "sm:text-center lg:text-left",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 13
+      lineNumber: 93,
+      columnNumber: 29
+    }
+  }, __jsx("h2", {
+    className: "text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl text-red-100",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94,
+      columnNumber: 33
+    }
+  }, "DROWN THE", __jsx("span", {
+    className: "text-red-600",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96,
+      columnNumber: 37
+    }
+  }, " SUN")), __jsx("p", {
+    className: "mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98,
+      columnNumber: 33
+    }
+  }, "Drown the Sun ist eine Metal-Band aus N\xFCrnberg, die 2016 von Bernhard Leupold. Daniele Forestieri, Jannik Kolb, Merlin Hattermann und Robert Schmidt gegr\xFCndet wurde."), __jsx("div", {
+    className: "mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103,
+      columnNumber: 33
     }
   }, __jsx("div", {
-    className: "h-full object-cover",
-    style: {
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-      backgroundImage: "url(https://res.cloudinary.com/chronark/image/upload/v1586181084/dts_all_cppvki.jpg)"
-    },
+    className: "rounded-md shadow",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 104,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#",
+    className: "w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium -md text-red-700 bg-red-100 hover:text-red-600 hover:bg-red-50 focus:outline-none focus:shadow-outline focus:border-red-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105,
+      columnNumber: 41
+    }
+  }, "Listen")), __jsx("div", {
+    className: "mt-3 sm:mt-0 sm:ml-3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 112,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#",
+    className: "w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113,
+      columnNumber: 41
+    }
+  }, "Pre-Order Now"))))), __jsx("svg", {
+    className: "hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-carbon-900 transform translate-x-1/2",
+    fill: "currentColor",
+    viewBox: "0 0 100 100",
+    preserveAspectRatio: "none",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 123,
+      columnNumber: 25
+    }
+  }, __jsx("polygon", {
+    points: "50,0 100,0 50,100 0,100",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 129,
+      columnNumber: 29
+    }
+  })))), __jsx("div", {
+    className: "lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 133,
       columnNumber: 17
     }
-  }, __jsx("div", {
-    className: "h-full bg-black opacity-25",
+  }, __jsx("img", {
+    className: "h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full",
+    src: "https://res.cloudinary.com/chronark/image/upload/v1586181084/dts_all_cppvki.jpg",
+    alt: "",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 134,
       columnNumber: 21
     }
-  })))));
+  }))));
 };
 
-Home.getInitialProps = function _callee(_ref2) {
-  var req, userAgent;
-  return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function _callee$(_context) {
-    while (1) {
-      switch (_context.prev = _context.next) {
-        case 0:
-          req = _ref2.req;
-          userAgent = req ? req.headers["user-agent"] || "" : navigator.userAgent;
-          return _context.abrupt("return", {
-            userAgent: userAgent
-          });
-
-        case 3:
-        case "end":
-          return _context.stop();
-      }
-    }
-  }, null, null, null, Promise);
-};
-
-Home.propTypes = {
-  userAgent: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.string.isRequired
-};
 /* harmony default export */ __webpack_exports__["default"] = (Home);
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fjs%2Fdrownthesun%2Fpages%2Findex.tsx ***!
   \******************************************************************************************************************************************/
@@ -5441,5 +5093,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
