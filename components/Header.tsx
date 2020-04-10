@@ -12,7 +12,7 @@ const Header: NextComponentType = () => {
     const toggleMenu = () => setOpen(!open)
 
     return (
-        <nav className="bg-carbon-800">
+        <nav className="bg-carbon-800 shadow-xl">
             <div className="container px-6 mx-auto lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex justify-between items-center flex-grow">

@@ -1,12 +1,14 @@
 import Header from "../components/Header"
 import Layout from "../components/Layout"
+import Link from "next/link"
 import { NextPage } from "next"
 import PropTypes from "prop-types"
 import React from "react"
+import SocialMedia from "../components/SocialMedia"
 
 const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
     <Layout>
-        <div className="flex bg-carbon-900" style={{ height: "600px" }}>
+        <div className="flex bg-carbon-900 flex-grow">
             <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
                 <div>
                     <h2 className="text-3xl font-semibold text-orange-100 md:text-4xl uppercase">
@@ -29,6 +31,15 @@ const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => (
                         >
                             Play Music
                         </a>
+                    </div>
+                    <div className="flex justify-between items-center mt-40 mb-6">
+                        <div className="text-carbon-100 font-bold text-sm">
+                            <Link href="#">
+                                <a className="mx-2">contact@drownthesun.com</a>
+                            </Link>
+                            <span className="mx-2">+49 123 456 789</span>
+                        </div>
+                        <SocialMedia></SocialMedia>
                     </div>
                 </div>
             </div>
