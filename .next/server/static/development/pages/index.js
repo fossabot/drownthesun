@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -104,7 +104,7 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/Layout.tsx";
+var _jsxFileName = "/home/andreas/Desktop/code/ts/drownthesun/components/Layout.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -134,7 +134,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _NavbarButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavbarButton */ "./components/NavbarButton.tsx");
-var _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/Navbar.tsx";
+var _jsxFileName = "/home/andreas/Desktop/code/ts/drownthesun/components/Navbar.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -193,7 +193,7 @@ const Navbar = () => {
       columnNumber: 25
     }
   })), __jsx("div", {
-    className: "-mr-2 flex items-center md:hidden",
+    className: "-mr-2 flex items-center",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -286,7 +286,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/NavbarButton.tsx";
+var _jsxFileName = "/home/andreas/Desktop/code/ts/drownthesun/components/NavbarButton.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -2001,7 +2001,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.tsx");
 /* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Navbar */ "./components/Navbar.tsx");
-var _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/pages/index.tsx";
+var _jsxFileName = "/home/andreas/Desktop/code/ts/drownthesun/pages/index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2335,14 +2335,14 @@ const Home = () => {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*******************************!*\
   !*** multi ./pages/index.tsx ***!
   \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/andreas/Desktop/code/js/drownthesun/pages/index.tsx */"./pages/index.tsx");
+module.exports = __webpack_require__(/*! /home/andreas/Desktop/code/ts/drownthesun/pages/index.tsx */"./pages/index.tsx");
 
 
 /***/ }),

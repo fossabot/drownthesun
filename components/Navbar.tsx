@@ -19,7 +19,7 @@ const Navbar: NextComponentType = () => {
                     <a href="#">
                         <img className="h-8 w-auto sm:h-10" src="public/img/logo.png" alt="" />
                     </a>
-                    <div className="-mr-2 flex items-center md:hidden">
+                    <div className="-mr-2 flex items-center">
                         <button
                             onClick={toggleMenu}
                             className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"

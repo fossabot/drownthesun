@@ -12,7 +12,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/Layout.tsx";
+    _jsxFileName = "/home/andreas/Desktop/code/ts/drownthesun/components/Layout.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -46,7 +46,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _NavbarButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavbarButton */ "./components/NavbarButton.tsx");
 var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/Navbar.tsx";
+    _jsxFileName = "/home/andreas/Desktop/code/ts/drownthesun/components/Navbar.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -107,7 +107,7 @@ var Navbar = function Navbar() {
       columnNumber: 25
     }
   })), __jsx("div", {
-    className: "-mr-2 flex items-center md:hidden",
+    className: "-mr-2 flex items-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -201,7 +201,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/NavbarButton.tsx";
+    _jsxFileName = "/home/andreas/Desktop/code/ts/drownthesun/components/NavbarButton.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -773,9 +773,9 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fjs%2Fdrownthesun%2Fpages%2Findex.tsx!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fts%2Fdrownthesun%2Fpages%2Findex.tsx!./":
 /*!**************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fjs%2Fdrownthesun%2Fpages%2Findex.tsx ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fts%2Fdrownthesun%2Fpages%2Findex.tsx ***!
   \**************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4734,7 +4734,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.tsx");
 /* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Navbar */ "./components/Navbar.tsx");
 var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/pages/index.tsx";
+    _jsxFileName = "/home/andreas/Desktop/code/ts/drownthesun/pages/index.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -5070,14 +5070,14 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!******************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fjs%2Fdrownthesun%2Fpages%2Findex.tsx ***!
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fts%2Fdrownthesun%2Fpages%2Findex.tsx ***!
   \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fjs%2Fdrownthesun%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fjs%2Fdrownthesun%2Fpages%2Findex.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fts%2Fdrownthesun%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fts%2Fdrownthesun%2Fpages%2Findex.tsx!./");
 
 
 /***/ }),
@@ -5093,5 +5093,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
