@@ -12,7 +12,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/Layout.tsx";
+    _jsxFileName = "/home/andreas/Desktop/code/ts/drownthesun/components/Layout.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -23,167 +23,13 @@ var Layout = function Layout(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 4,
       columnNumber: 32
     }
   }, props.children);
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
-
-/***/ }),
-
-/***/ "./components/Navbar.tsx":
-/*!*******************************!*\
-  !*** ./components/Navbar.tsx ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _NavbarButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavbarButton */ "./components/NavbarButton.tsx");
-var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/Navbar.tsx";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var linkStyle = {
-  marginRight: 15
-};
-
-var Navbar = function Navbar() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
-      open = _useState[0],
-      setOpen = _useState[1];
-
-  var toggleMenu = function toggleMenu() {
-    return setOpen(!open);
-  };
-
-  return __jsx("nav", {
-    className: "relative flex items-center justify-between sm:h-10 lg:justify-start",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "flex items-center flex-grow flex-shrink-0 lg:flex-grow-0",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 13
-    }
-  }, __jsx("div", {
-    className: "flex items-center justify-between w-full md:w-auto",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 17
-    }
-  }, __jsx("a", {
-    href: "#",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 21
-    }
-  }, __jsx("img", {
-    className: "h-8 w-auto sm:h-10",
-    src: "public/img/logo.png",
-    alt: "",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 25
-    }
-  })), __jsx("div", {
-    className: "-mr-2 flex items-center md:hidden",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 21
-    }
-  }, __jsx("button", {
-    onClick: toggleMenu,
-    className: "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 25
-    }
-  }, __jsx("svg", {
-    className: "h-6 w-6",
-    stroke: "currentColor",
-    fill: "none",
-    viewBox: "0 0 24 24",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 29
-    }
-  }, __jsx("path", {
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    strokeWidth: "2",
-    d: "M4 6h16M4 12h16M4 18h16",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 33
-    }
-  })))))), __jsx("div", {
-    className: "hidden md:block md:ml-10 md:pr-4",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 13
-    }
-  }, __jsx(_NavbarButton__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    href: "#",
-    name: "Music",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 17
-    }
-  }), __jsx(_NavbarButton__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    href: "/tour",
-    name: "Tour",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 17
-    }
-  }), __jsx(_NavbarButton__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    href: "#",
-    name: "Contact",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 17
-    }
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Navbar);
 
 /***/ }),
 
@@ -201,7 +47,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/components/NavbarButton.tsx";
+    _jsxFileName = "/home/andreas/Desktop/code/ts/drownthesun/components/NavbarButton.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -773,9 +619,9 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fjs%2Fdrownthesun%2Fpages%2Findex.tsx!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fts%2Fdrownthesun%2Fpages%2Findex.tsx!./":
 /*!**************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fjs%2Fdrownthesun%2Fpages%2Findex.tsx ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fts%2Fdrownthesun%2Fpages%2Findex.tsx ***!
   \**************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4732,9 +4578,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.tsx");
-/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Navbar */ "./components/Navbar.tsx");
+/* harmony import */ var _components_NavbarButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/NavbarButton */ "./components/NavbarButton.tsx");
 var _this = undefined,
-    _jsxFileName = "/home/andreas/Desktop/code/js/drownthesun/pages/index.tsx";
+    _jsxFileName = "/home/andreas/Desktop/code/ts/drownthesun/pages/index.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -4754,7 +4600,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 16,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -4762,7 +4608,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 17,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -4770,7 +4616,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 18,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -4778,7 +4624,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 19,
       columnNumber: 21
     }
   }, __jsx("div", {
@@ -4786,80 +4632,66 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 20,
       columnNumber: 25
     }
-  }, __jsx(_components_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, __jsx("nav", {
+    className: "relative flex items-center justify-between sm:h-10 lg:justify-start",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 29
+    }
+  }, __jsx("div", {
+    className: "flex items-center flex-grow flex-shrink-0 lg:flex-grow-0",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 29
-    }
-  })), __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "rounded-lg shadow-md ".concat(open ? "" : "hidden"),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 29
-    }
-  }, __jsx("div", {
-    className: "rounded-lg bg-white shadow-xs overflow-hidden m-4",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
       columnNumber: 33
     }
   }, __jsx("div", {
-    className: "px-5 pt-4 flex items-center justify-between hidden",
+    className: "flex items-center justify-between w-full md:w-auto",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 23,
       columnNumber: 37
     }
-  }, __jsx("div", {
+  }, __jsx("a", {
+    href: "#",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 24,
       columnNumber: 41
     }
   }, __jsx("img", {
-    className: "h-8 w-auto",
+    className: "h-8 w-auto sm:h-10",
     src: "public/img/logo.png",
     alt: "",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 25,
       columnNumber: 45
     }
   })), __jsx("div", {
-    className: "-mr-2",
+    className: "-mr-2 flex items-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 27,
       columnNumber: 41
     }
   }, __jsx("button", {
     onClick: toggleMenu,
-    type: "button",
     className: "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 28,
       columnNumber: 45
     }
   }, __jsx("svg", {
@@ -4870,7 +4702,130 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 32,
+      columnNumber: 49
+    }
+  }, __jsx("path", {
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "2",
+    d: "M4 6h16M4 12h16M4 18h16",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 38,
+      columnNumber: 53
+    }
+  })))))), __jsx("div", {
+    className: "hidden ".concat(open ? "md:block" : "", " md:ml-10 md:pr-4"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 33
+    }
+  }, __jsx(_components_NavbarButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    href: "#",
+    name: "Music",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 37
+    }
+  }), __jsx(_components_NavbarButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    href: "/tour",
+    name: "Tour",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 37
+    }
+  }), __jsx(_components_NavbarButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    href: "#",
+    name: "Contact",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 37
+    }
+  })))), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "md:hidden rounded-lg shadow-md absolute w-full ".concat(open ? "" : "hidden"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 29
+    }
+  }, __jsx("div", {
+    className: "rounded-lg bg-white shadow-xs overflow-hidden m-4",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59,
+      columnNumber: 33
+    }
+  }, __jsx("div", {
+    className: "px-5 pt-4 flex items-center justify-between hidden",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
+      columnNumber: 37
+    }
+  }, __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 41
+    }
+  }, __jsx("img", {
+    className: "h-8 w-auto",
+    src: "public/img/logo.png",
+    alt: "",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62,
+      columnNumber: 45
+    }
+  })), __jsx("div", {
+    className: "-mr-2",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 41
+    }
+  }, __jsx("button", {
+    onClick: toggleMenu,
+    type: "button",
+    className: "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 45
+    }
+  }, __jsx("svg", {
+    className: "h-6 w-6",
+    stroke: "currentColor",
+    fill: "none",
+    viewBox: "0 0 24 24",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
       columnNumber: 49
     }
   }, __jsx("path", {
@@ -4881,7 +4836,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 76,
       columnNumber: 53
     }
   }))))), __jsx("div", {
@@ -4889,7 +4844,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 86,
       columnNumber: 37
     }
   }, __jsx("a", {
@@ -4898,7 +4853,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 87,
       columnNumber: 41
     }
   }, "Product"), __jsx("a", {
@@ -4907,7 +4862,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 93,
       columnNumber: 41
     }
   }, "Features"), __jsx("a", {
@@ -4916,7 +4871,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 99,
       columnNumber: 41
     }
   }, "Marketplace"), __jsx("a", {
@@ -4925,92 +4880,10 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 41
-    }
-  }, "Company")), __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#",
-    className: "block w-full px-5 py-3 text-center font-medium text-red-600 bg-gray-50 hover:bg-gray-100 hover:text-red-700 focus:outline-none focus:bg-gray-100 focus:text-red-700 transition duration-150 ease-in-out",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81,
-      columnNumber: 41
-    }
-  }, "Log in"))))), __jsx("div", {
-    className: "mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92,
-      columnNumber: 25
-    }
-  }, __jsx("div", {
-    className: "sm:text-center lg:text-left",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93,
-      columnNumber: 29
-    }
-  }, __jsx("h2", {
-    className: "text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl text-red-100",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94,
-      columnNumber: 33
-    }
-  }, "DROWN THE", __jsx("span", {
-    className: "text-red-600",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96,
-      columnNumber: 37
-    }
-  }, " SUN")), __jsx("p", {
-    className: "mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 98,
-      columnNumber: 33
-    }
-  }, "Drown the Sun ist eine Metal-Band aus N\xFCrnberg, die 2016 von Bernhard Leupold. Daniele Forestieri, Jannik Kolb, Merlin Hattermann und Robert Schmidt gegr\xFCndet wurde."), __jsx("div", {
-    className: "mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 103,
-      columnNumber: 33
-    }
-  }, __jsx("div", {
-    className: "rounded-md shadow",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 104,
-      columnNumber: 37
-    }
-  }, __jsx("a", {
-    href: "#",
-    className: "w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium -md text-red-700 bg-red-100 hover:text-red-600 hover:bg-red-50 focus:outline-none focus:shadow-outline focus:border-red-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 105,
       columnNumber: 41
     }
-  }, "Listen")), __jsx("div", {
-    className: "mt-3 sm:mt-0 sm:ml-3",
+  }, "Company")), __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -5019,11 +4892,93 @@ var Home = function Home() {
     }
   }, __jsx("a", {
     href: "#",
-    className: "w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10",
+    className: "block w-full px-5 py-3 text-center font-medium text-red-600 bg-gray-50 hover:bg-gray-100 hover:text-red-700 focus:outline-none focus:bg-gray-100 focus:text-red-700 transition duration-150 ease-in-out",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 113,
+      columnNumber: 41
+    }
+  }, "Log in"))))), __jsx("div", {
+    className: "mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 124,
+      columnNumber: 25
+    }
+  }, __jsx("div", {
+    className: "sm:text-center lg:text-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 125,
+      columnNumber: 29
+    }
+  }, __jsx("h2", {
+    className: "text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl text-red-100",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 126,
+      columnNumber: 33
+    }
+  }, "DROWN THE", __jsx("span", {
+    className: "text-red-600",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 128,
+      columnNumber: 37
+    }
+  }, " SUN")), __jsx("p", {
+    className: "mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 130,
+      columnNumber: 33
+    }
+  }, "Drown the Sun ist eine Metal-Band aus N\xFCrnberg, die 2016 von Bernhard Leupold. Daniele Forestieri, Jannik Kolb, Merlin Hattermann und Robert Schmidt gegr\xFCndet wurde."), __jsx("div", {
+    className: "mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 135,
+      columnNumber: 33
+    }
+  }, __jsx("div", {
+    className: "rounded-md shadow",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 136,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#",
+    className: "w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium -md text-red-700 bg-red-100 hover:text-red-600 hover:bg-red-50 focus:outline-none focus:shadow-outline focus:border-red-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 137,
+      columnNumber: 41
+    }
+  }, "Listen")), __jsx("div", {
+    className: "mt-3 sm:mt-0 sm:ml-3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 144,
+      columnNumber: 37
+    }
+  }, __jsx("a", {
+    href: "#",
+    className: "w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 145,
       columnNumber: 41
     }
   }, "Pre-Order Now"))))), __jsx("svg", {
@@ -5034,7 +4989,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 155,
       columnNumber: 25
     }
   }, __jsx("polygon", {
@@ -5042,7 +4997,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
+      lineNumber: 161,
       columnNumber: 29
     }
   })))), __jsx("div", {
@@ -5050,7 +5005,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133,
+      lineNumber: 165,
       columnNumber: 17
     }
   }, __jsx("img", {
@@ -5060,7 +5015,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 166,
       columnNumber: 21
     }
   }))));
@@ -5070,14 +5025,14 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!******************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fjs%2Fdrownthesun%2Fpages%2Findex.tsx ***!
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fts%2Fdrownthesun%2Fpages%2Findex.tsx ***!
   \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fjs%2Fdrownthesun%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fjs%2Fdrownthesun%2Fpages%2Findex.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fts%2Fdrownthesun%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fandreas%2FDesktop%2Fcode%2Fts%2Fdrownthesun%2Fpages%2Findex.tsx!./");
 
 
 /***/ }),
@@ -5093,5 +5048,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
