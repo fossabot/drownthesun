@@ -106,3 +106,4 @@ dist
 
 # nextjs
 .next/
+out/
