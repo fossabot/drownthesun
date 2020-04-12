@@ -8,19 +8,19 @@ const Navbar = () => {
     const toggleMenu = () => setOpen(!open)
     return (
         <>
-            <div className="pt-6 px-4 sm:px-6 lg:px-8">
+            <div className="px-4 pt-6 sm:px-6 lg:px-8">
                 <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start">
                     <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                         <div className="flex items-center justify-between w-full md:w-auto">
                             <a href="#">
-                                <img className="h-8 w-auto sm:h-10" src="public/img/logo.png" alt="" />
+                                <img className="w-auto h-8 sm:h-10" src="public/img/logo.png" alt="" />
                             </a>
-                            <div className="-mr-2 flex items-center">
+                            <div className="flex items-center -mr-2">
                                 <button
                                     onClick={toggleMenu}
-                                    className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+                                    className="z-10 inline-flex items-center justify-center block p-2 text-gray-400 transition duration-150 ease-in-out rounded-sm hover:text-gray-500 hover:bg-gray-100 hover:outline-none focus:outline-none"
                                 >
-                                    <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                    <svg className="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
@@ -32,7 +32,11 @@ const Navbar = () => {
                             </div>
                         </div>
                     </div>
-                    <div className={`hidden ${open ? "md:block" : ""} md:ml-10 md:pr-4`}>
+                    <div
+                        className={`hidden md:block transform duration-500 transition ease-in-out opacity-0 md:ml-10 md:pr-4 z-0 ${
+                            open ? "opacity-100" : "translate-x-20 lg:-translate-x-20 "
+                        }`}
+                    >
                         <NavbarButton href="#" name="Music"></NavbarButton>
                         <NavbarButton href="/tour" name="Tour"></NavbarButton>
                         <NavbarButton href="#" name="Contact"></NavbarButton>
@@ -41,19 +45,19 @@ const Navbar = () => {
             </div>
 
             <div>
-                <div className={`md:hidden rounded-lg shadow-md absolute w-full ${open ? "" : "hidden"}`}>
-                    <div className="rounded-lg bg-white shadow-xs overflow-hidden m-4">
-                        <div className="px-5 pt-4 flex items-center justify-between hidden">
+                <div className={`md:hidden rounded-lg shadow-md absolute w-full transform duration-500 transition ease-in-out opacity-0 ${open ? "opacity-100" : "-translate-y-20"}`}>
+                    <div className="m-4 overflow-hidden bg-white rounded-lg shadow-xs">
+                        <div className="flex items-center justify-between hidden px-5 pt-4">
                             <div>
-                                <img className="h-8 w-auto" src="public/img/logo.png" alt="" />
+                                <img className="w-auto h-8" src="public/img/logo.png" alt="" />
                             </div>
                             <div className="-mr-2">
                                 <button
                                     onClick={toggleMenu}
                                     type="button"
-                                    className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+                                    className="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500"
                                 >
-                                    <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                    <svg className="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
@@ -67,25 +71,25 @@ const Navbar = () => {
                         <div className="px-2 pt-2 pb-3">
                             <a
                                 href="#"
-                                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                                className="block px-3 py-2 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
                             >
                                 Product
                             </a>
                             <a
                                 href="#"
-                                className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                                className="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
                             >
                                 Features
                             </a>
                             <a
                                 href="#"
-                                className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                                className="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
                             >
                                 Marketplace
                             </a>
                             <a
                                 href="#"
-                                className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                                className="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
                             >
                                 Company
                             </a>
@@ -93,7 +97,7 @@ const Navbar = () => {
                         <div>
                             <a
                                 href="#"
-                                className="block w-full px-5 py-3 text-center font-medium text-red-600 bg-gray-50 hover:bg-gray-100 hover:text-red-700 focus:outline-none focus:bg-gray-100 focus:text-red-700 transition duration-150 ease-in-out"
+                                className="block w-full px-5 py-3 font-medium text-center text-red-600 transition duration-150 ease-in-out bg-gray-50 hover:bg-gray-100 hover:text-red-700 focus:outline-none focus:bg-gray-100 focus:text-red-700"
                             >
                                 Log in
                             </a>

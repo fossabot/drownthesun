@@ -7,7 +7,7 @@ type Props = {
 
 const NavbarButton = (props: Props) => (
     <Link href={props.href}>
-        <a className="ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900">
+        <a className="ml-8 text-sm font-bold transition ease-in-out duration-250 text-carbon-200 hover:text-carbon-50 focus:outline-none">
             {props.name}
         </a>
     </Link>

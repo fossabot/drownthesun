@@ -9,14 +9,14 @@ import SocialMedia from "../components/SocialMedia"
 const Home: NextPage = () => {
     return (
         <Layout>
-            <div className="relative bg-carbon-900 overflow-hidden">
+            <div className="relative overflow-hidden bg-carbon-900">
                 <div className="max-w-screen-xl mx-auto ">
                     <div className="relative z-10 pb-8 bg-carbon-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
                         <Navbar></Navbar>
 
-                        <div className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                        <div className="max-w-screen-xl px-4 mx-auto mt-10 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                             <div className="sm:text-center lg:text-left">
-                                <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl text-red-100">
+                                <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 text-red-100 sm:text-5xl sm:leading-none md:text-6xl">
                                     DROWN THE
                                     <span className="text-red-600"> SUN</span>
                                 </h2>
@@ -29,7 +29,7 @@ const Home: NextPage = () => {
                                     <div className="rounded-md shadow">
                                         <a
                                             href="#"
-                                            className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium -md text-red-700 bg-red-100 hover:text-red-600 hover:bg-red-50 focus:outline-none focus:shadow-outline focus:border-red-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                                            className="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-red-700 transition duration-150 ease-in-out bg-red-100 border border-transparent rounded-sm -md hover:text-red-600 hover:bg-red-50 focus:outline-none focus:shadow-outline focus:border-red-300 md:py-4 md:text-lg md:px-10"
                                         >
                                             Listen
                                         </a>
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
                                     <div className="mt-3 sm:mt-0 sm:ml-3">
                                         <a
                                             href="#"
-                                            className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                                            className="flex items-center justify-center w-full px-8 py-3 text-base leading-6 text-white transition duration-150 ease-in-out bg-red-600 border border-transparent rounded-sm font-medium-md hover:bg-red-500 focus:outline-none focus:shadow-outline md:py-4 md:text-lg md:px-10"
                                         >
                                             Pre-Order Now
                                         </a>
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                         <svg
-                            className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-carbon-900 transform translate-x-1/2"
+                            className="absolute inset-y-0 right-0 hidden w-48 h-full transform translate-x-1/2 lg:block text-carbon-900"
                             fill="currentColor"
                             viewBox="0 0 100 100"
                             preserveAspectRatio="none"
@@ -57,7 +57,7 @@ const Home: NextPage = () => {
                 </div>
                 <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
                     <img
-                        className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+                        className="object-cover w-full h-56 sm:h-72 md:h-96 lg:w-full lg:h-full"
                         src="https://res.cloudinary.com/chronark/image/upload/v1586181084/dts_all_cppvki.jpg"
                         alt=""
                     />
