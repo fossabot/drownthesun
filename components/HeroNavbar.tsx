@@ -42,7 +42,7 @@ const Navbar = () => {
                         }`}
                     >
                         <NavbarButton href="#" name="Music"></NavbarButton>
-                        <NavbarButton href="/tour" name="Tour"></NavbarButton>
+                        <NavbarButton href="#" name="Tour"></NavbarButton>
                         <NavbarButton href="#" name="Contact"></NavbarButton>
                     </div>
                 </nav>

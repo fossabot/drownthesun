@@ -21,7 +21,7 @@ const Navbar = () => {
                         <div className="hidden md:block">
                             <div className="flex items-baseline ml-10">
                                 <NavbarButton href="#" name="Music"></NavbarButton>
-                                <NavbarButton href="/tour" name="Tour"></NavbarButton>
+                                <NavbarButton href="#" name="Tour"></NavbarButton>
                                 <NavbarButton href="#" name="Contact"></NavbarButton>
                             </div>
                         </div>
