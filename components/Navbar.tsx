@@ -18,7 +18,7 @@ const Navbar = () => {
                             <div className="flex items-center -mr-2">
                                 <button
                                     onClick={toggleMenu}
-                                    className="z-10 inline-flex items-center justify-center block p-2 text-gray-400 transition duration-150 ease-in-out rounded-sm hover:text-gray-500 hover:bg-gray-100 hover:outline-none focus:outline-none"
+                                    className={`z-10 inline-flex items-center justify-center block p-2 text-gray-400 transition duration-150 ease-in-out rounded-sm hover:text-gray-500 hover:bg-gray-100 hover:outline-none focus:outline-none ${ open ? "hidden md:block" : ""}`}
                                 >
                                     <svg className="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                         <path
@@ -33,6 +33,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div
+                        // menu navbar at the top
                         className={`hidden md:block transform duration-500 transition ease-in-out opacity-0 md:ml-10 md:pr-4 z-0 ${
                             open ? "opacity-100" : "translate-x-20 lg:-translate-x-20 "
                         }`}
@@ -45,19 +46,20 @@ const Navbar = () => {
             </div>
 
             <div>
-                <div className={`md:hidden rounded-lg shadow-md absolute w-full transform duration-500 transition ease-in-out opacity-0 ${open ? "opacity-100" : "-translate-y-20"}`}>
+                <div
+                    className={`md:hidden rounded-lg shadow-md absolute w-full transform duration-500 transition ease-in-out opacity-0 ${
+                        open ? "opacity-100" : "-translate-y-20"
+                    }`}
+                >
                     <div className="m-4 overflow-hidden bg-white rounded-lg shadow-xs">
                         <div className="flex items-center justify-between hidden px-5 pt-4">
-                            <div>
-                                <img className="w-auto h-8" src="public/img/logo.png" alt="" />
-                            </div>
                             <div className="-mr-2">
                                 <button
                                     onClick={toggleMenu}
                                     type="button"
-                                    className="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500"
+                                    className={`inline-flex items-center justify-center p-2 text-black text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 ${open ? "hidden" : ""}`}
                                 >
-                                    <svg className="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                    <svg className="w-6 h-6 " stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                         <path
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
@@ -97,7 +99,7 @@ const Navbar = () => {
                         <div>
                             <a
                                 href="#"
-                                className="block w-full px-5 py-3 font-medium text-center text-red-600 transition duration-150 ease-in-out bg-gray-50 hover:bg-gray-100 hover:text-red-700 focus:outline-none focus:bg-gray-100 focus:text-red-700"
+                                className="block w-full px-5 py-3 font-medium text-center text-indigo-600 transition duration-150 ease-in-out bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700"
                             >
                                 Log in
                             </a>
