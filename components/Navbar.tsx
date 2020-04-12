@@ -47,7 +47,7 @@ const Navbar = () => {
 
             <div>
                 <div
-                    className={`md:hidden rounded-lg shadow-md absolute w-full transform duration-500 transition ease-in-out opacity-0 ${
+                    className={`absolute md:hidden rounded-lg shadow-md absolute w-full transform duration-500 transition ease-in-out opacity-0 ${
                         open ? "opacity-100" : "-translate-y-20"
                     }`}
                 >
