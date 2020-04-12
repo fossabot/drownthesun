@@ -1,12 +1,10 @@
 import "../css/tailwind.css"
 
 import App from "next/app"
-import LogRocket from "logrocket"
 import React from "react"
+import Router from "next/router"
+import withGA from "next-ga"
 
-if (process.browser) {
-    LogRocket.init("wpbi3h/drownthesun")
-}
 class MyApp extends App {
     render() {
         const { Component, pageProps } = this.props
@@ -14,4 +12,4 @@ class MyApp extends App {
     }
 }
 
-export default MyApp
+export default withGA("G-YGEF6WNFGW", router)(MyApp)
