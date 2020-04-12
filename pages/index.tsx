@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 
+import HeroNavbar from "../components/HeroNavbar"
 import Layout from "../components/Layout"
-import Navbar from "../components/Navbar"
 import { NextPage } from "next"
 import PropTypes from "prop-types"
 import SocialMedia from "../components/SocialMedia"
@@ -12,7 +12,7 @@ const Home: NextPage = () => {
             <div className="relative overflow-hidden bg-carbon-900">
                 <div className="max-w-screen-xl mx-auto ">
                     <div className="relative z-10 pb-8 bg-carbon-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-                        <Navbar></Navbar>
+                        <HeroNavbar></HeroNavbar>
 
                         <div className="max-w-screen-xl px-4 mx-auto mt-10 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                             <div className="sm:text-center lg:text-left">
