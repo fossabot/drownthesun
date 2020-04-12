@@ -3,49 +3,50 @@ import React, { useState } from "react"
 import HeroNavbar from "../components/HeroNavbar"
 import Layout from "../components/Layout"
 import { NextPage } from "next"
-import PropTypes from "prop-types"
 import SocialMedia from "../components/SocialMedia"
 
 const Home: NextPage = () => {
     return (
         <Layout>
             <div className="relative overflow-hidden bg-carbon-900">
-                <div className="max-w-screen-xl mx-auto ">
-                    <div className="relative z-10 pb-8 bg-carbon-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+                <div className="max-w-screen-xl mx-auto">
+                    <div className="relative z-10 flex flex-col min-h-screen pb-8 bg-carbon-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28">
                         <HeroNavbar></HeroNavbar>
 
-                        <div className="max-w-screen-xl px-4 mx-auto mt-10 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-                            <div className="sm:text-center lg:text-left">
-                                <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 text-red-100 sm:text-5xl sm:leading-none md:text-6xl">
-                                    DROWN THE
-                                    <span className="text-red-600"> SUN</span>
-                                </h2>
-                                <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                                    Drown the Sun ist eine Metal-Band aus Nürnberg, die 2016 von Bernhard Leupold.
-                                    Daniele Forestieri, Jannik Kolb, Merlin Hattermann und Robert Schmidt gegründet
-                                    wurde.
-                                </p>
-                                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                                    <div className="rounded-md shadow">
-                                        <a
-                                            href="#"
-                                            className="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-red-700 transition duration-150 ease-in-out bg-red-100 border border-transparent rounded-sm -md hover:text-red-600 hover:bg-red-50 focus:outline-none focus:shadow-outline focus:border-red-300 md:py-4 md:text-lg md:px-10"
-                                        >
-                                            Listen
-                                        </a>
-                                    </div>
-                                    <div className="mt-3 sm:mt-0 sm:ml-3">
-                                        <a
-                                            href="#"
-                                            className="flex items-center justify-center w-full px-8 py-3 text-base leading-6 text-white transition duration-150 ease-in-out bg-red-600 border border-transparent rounded-sm font-medium-md hover:bg-red-500 focus:outline-none focus:shadow-outline md:py-4 md:text-lg md:px-10"
-                                        >
-                                            Pre-Order Now
-                                        </a>
+                        <div className="flex flex-grow max-w-screen-xl px-4 mx-auto mt-10 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                            <div className="flex-grow">
+                                <div className="h-full sm:text-center lg:text-left">
+                                    <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 text-red-100 sm:text-5xl sm:leading-none md:text-6xl">
+                                        DROWN THE
+                                        <span className="text-red-600"> SUN</span>
+                                    </h2>
+                                    <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                                        Drown the Sun ist eine Metal-Band aus Nürnberg, die 2016 von Bernhard Leupold.
+                                        Daniele Forestieri, Jannik Kolb, Merlin Hattermann und Robert Schmidt gegründet
+                                        wurde.
+                                    </p>
+                                    <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                                        <div className="rounded-md shadow">
+                                            <a
+                                                href="#"
+                                                className="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-red-700 transition duration-150 ease-in-out bg-red-100 border border-transparent rounded-sm -md hover:text-red-600 hover:bg-red-50 focus:outline-none focus:shadow-outline focus:border-red-300 md:py-4 md:text-lg md:px-10"
+                                            >
+                                                Listen
+                                            </a>
+                                        </div>
+                                        <div className="mt-3 sm:mt-0 sm:ml-3">
+                                            <a
+                                                href="#"
+                                                className="flex items-center justify-center w-full px-8 py-3 text-base leading-6 text-white transition duration-150 ease-in-out bg-red-600 border border-transparent rounded-sm font-medium-md hover:bg-red-500 focus:outline-none focus:shadow-outline md:py-4 md:text-lg md:px-10"
+                                            >
+                                                Pre-Order Now
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                                    <div className="flex justify-center lg:block">
-                                        <SocialMedia></SocialMedia>
-                                    </div>
+                                <div className="flex justify-center lg:justify-start items-between lg:text-left">
+                                    <SocialMedia></SocialMedia>
+                                </div>
                             </div>
                         </div>
                         <svg
