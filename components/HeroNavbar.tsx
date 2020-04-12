@@ -13,8 +13,8 @@ const Navbar = () => {
                 <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start">
                     <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                         <div className="flex items-center justify-between w-full sm:w-auto">
-                            <a href="#">
-                                <img className="w-auto h-8 sm:h-10" src="public/img/logo.png" alt="" />
+                            <a className="sm:hidden" href="#">
+                                <img className="w-auto h-8 sm:h-10" src="/img/logo.png" alt="" />
                             </a>
                             <div className="flex items-center -mr-2">
                                 <button
