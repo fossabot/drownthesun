@@ -44,7 +44,7 @@ const Home: NextPage = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex justify-center lg:justify-start items-between lg:text-left">
+                                <div className="flex justify-center lg:justify-start items-between">
                                     <SocialMedia></SocialMedia>
                                 </div>
                             </div>
