@@ -9,14 +9,14 @@ const Home: NextPage = () => {
     return (
         <Layout>
             <div className="relative overflow-hidden bg-carbon-900">
-                <div className="max-w-screen-xl mx-auto">
+                <div className="mx-auto max-w-screen-xl">
                     <div className="relative z-10 flex flex-col min-h-screen pb-8 bg-carbon-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28">
                         <HeroNavbar></HeroNavbar>
 
-                        <div className="flex flex-grow max-w-screen-xl px-4 mx-auto mt-10 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                        <div className="flex flex-grow px-4 mx-auto mt-10 max-w-screen-xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                             <div className="flex-grow">
                                 <div className="h-full sm:text-center lg:text-left">
-                                    <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 text-red-100 sm:text-5xl sm:leading-none md:text-6xl">
+                                    <h2 className="text-4xl font-extrabold tracking-tight text-gray-900 text-red-100 leading-10 sm:text-5xl sm:leading-none md:text-6xl">
                                         DROWN THE
                                         <span className="text-red-600"> SUN</span>
                                     </h2>
@@ -29,7 +29,7 @@ const Home: NextPage = () => {
                                         <div className="rounded-sm ">
                                             <a
                                                 href="#"
-                                                className="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out border border-transparent shadow bg-carbon-50 hover:text-black hover:shadow-glow hover:bg-white focus:outline-none focus:shadow-outline focus:border-red-300 md:py-4 md:text-lg md:px-10"
+                                                className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-gray-900 border border-transparent shadow leading-6 transition duration-150 ease-in-out bg-carbon-50 hover:text-black hover:shadow-glow hover:bg-white focus:outline-none focus:shadow-outline focus:border-red-300 md:py-4 md:text-lg md:px-10"
                                             >
                                                 Listen
                                             </a>
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
                                         <div className="mt-3 rounded-sm sm:mt-0 sm:ml-3">
                                             <a
                                                 href="#"
-                                                className="flex items-center justify-center w-full px-8 py-3 text-base leading-6 text-white transition duration-150 ease-in-out bg-red-600 border border-transparent font-medium-md hover:bg-red-500 focus:outline-none focus:shadow-outline md:py-4 md:text-lg md:px-10"
+                                                className="flex items-center justify-center w-full px-8 py-3 text-base text-white bg-red-600 border border-transparent leading-6 transition duration-150 ease-in-out font-medium-md hover:bg-red-500 focus:outline-none focus:shadow-outline md:py-4 md:text-lg md:px-10"
                                             >
                                                 Pre-Order Now
                                             </a>

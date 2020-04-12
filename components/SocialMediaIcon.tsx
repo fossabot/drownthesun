@@ -8,7 +8,7 @@ type Props = {
 
 const SocialMediaIcon: FunctionComponent<Props> = (props) => (
     <div
-        className={`${props.className} w-8 h-8 md:w-6 md:h-6 duration-150 ease-in-out transform hover:text-carbon-50 hover:scale-150 hover:-translate-y-2`}
+        className={`${props.className} w-8 h-8 md:w-6 md:h-6 duration-100 ease-in-out transform hover:text-carbon-50 hover:scale-150 hover:-translate-y-4`}
     >
         {props.children}
     </div>
