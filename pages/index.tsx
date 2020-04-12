@@ -37,7 +37,7 @@ const Home: NextPage = () => {
                                         <div className="mt-3 rounded-sm sm:mt-0 sm:ml-3">
                                             <a
                                                 href="#"
-                                                className="flex items-center justify-center w-full px-8 py-3 text-base text-white bg-red-600 border border-transparent leading-6 transition duration-150 ease-in-out font-medium-md hover:bg-red-500 focus:outline-none focus:shadow-outline md:py-4 md:text-lg md:px-10"
+                                                className="flex items-center justify-center w-full px-8 py-3 text-base text-black bg-red-600 border border-transparent leading-6 transition duration-150 ease-in-out font-medium-md hover:bg-red-500 focus:outline-none focus:shadow-outline md:py-4 md:text-lg md:px-10"
                                             >
                                                 Pre-Order Now
                                             </a>
