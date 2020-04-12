@@ -43,6 +43,9 @@ const Home: NextPage = () => {
                                         </a>
                                     </div>
                                 </div>
+                                    <div className="flex justify-center lg:block">
+                                        <SocialMedia></SocialMedia>
+                                    </div>
                             </div>
                         </div>
                         <svg
