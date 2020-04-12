@@ -1,7 +1,11 @@
 module.exports = {
   theme: {
     
-    extend: {colors: {
+    extend: {
+      boxShadow: {
+        glow: '0 10px 15px -3px rgba(255, 255, 255, .5)',
+      },
+      colors: {
       carbon: {
         50: '#f3f3f3',
         100: '#dcdcdc',

@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "fmt": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix"
+    "fmt": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --fix"
   },
   "author": "",
   "license": "ISC",

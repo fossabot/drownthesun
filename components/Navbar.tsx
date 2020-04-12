@@ -1,49 +1,28 @@
 import React, { useState } from "react"
 
+import DropdownButton from "./DropdownButton"
+import Link from "next/link"
+import NavbarButton from "./NavbarButton"
+
 const Navbar = () => {
     const [open, setOpen] = useState(false)
 
     const toggleMenu = () => setOpen(!open)
     return (
-        <nav className="bg-gray-800">
+        <nav className="bg-carbon-800">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex items-center">
-                        <div className="flex-shrink-0">
-                            <img className="w-8 h-8" src="/img/logos/workflow-mark-on-dark.svg" alt="Workflow logo" />
-                        </div>
+                        <Link href="/">
+                            <a className="flex-shrink-0">
+                                <img className="w-8 h-8" src="/img/logo.png" alt="Drown The Sun" />
+                            </a>
+                        </Link>
                         <div className="hidden md:block">
                             <div className="flex items-baseline ml-10">
-                                <a
-                                    href="#"
-                                    className="px-3 py-2 text-sm font-medium text-white bg-gray-900 rounded-md focus:outline-none focus:text-white focus:bg-gray-700"
-                                >
-                                    Dashboard
-                                </a>
-                                <a
-                                    href="#"
-                                    className="px-3 py-2 ml-4 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                                >
-                                    Team
-                                </a>
-                                <a
-                                    href="#"
-                                    className="px-3 py-2 ml-4 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                                >
-                                    Projects
-                                </a>
-                                <a
-                                    href="#"
-                                    className="px-3 py-2 ml-4 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                                >
-                                    Calendar
-                                </a>
-                                <a
-                                    href="#"
-                                    className="px-3 py-2 ml-4 text-sm font-medium text-gray-300 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                                >
-                                    Reports
-                                </a>
+                                <NavbarButton href="#" name="Music"></NavbarButton>
+                                <NavbarButton href="#" name="Tour"></NavbarButton>
+                                <NavbarButton href="#" name="Contact"></NavbarButton>
                             </div>
                         </div>
                     </div>
@@ -78,7 +57,7 @@ const Navbar = () => {
                                         />
                                     </button>
                                 </div>
-                                <div className="absolute right-0 w-48 mt-2 origin-top-right rounded-md shadow-lg">
+                                <div className="absolute right-0 w-48 mt-2 shadow-lg origin-top-right rounded-md">
                                     <div className="py-1 bg-white rounded-md shadow-xs">
                                         <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                                             Your Profile
@@ -151,44 +130,6 @@ const Navbar = () => {
                     >
                         Reports
                     </a>
-                </div>
-                <div className="pt-4 pb-3 border-t border-gray-700">
-                    <div className="flex items-center px-5">
-                        <div className="flex-shrink-0">
-                            <img
-                                className="w-10 h-10 rounded-full"
-                                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                alt=""
-                            />
-                        </div>
-                        <div className="ml-3">
-                            <div className="text-base font-medium leading-none text-white">Tom Cook</div>
-                            <div className="mt-1 text-sm font-medium leading-none text-gray-400">tom@example.com</div>
-                        </div>
-                    </div>
-                    <div className="px-2 mt-3" role="menu" aria-orientation="vertical" aria-labelledby="user-menu">
-                        <a
-                            href="#"
-                            className="block px-3 py-2 text-base font-medium text-gray-400 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                            role="menuitem"
-                        >
-                            Your Profile
-                        </a>
-                        <a
-                            href="#"
-                            className="block px-3 py-2 mt-1 text-base font-medium text-gray-400 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                            role="menuitem"
-                        >
-                            Settings
-                        </a>
-                        <a
-                            href="#"
-                            className="block px-3 py-2 mt-1 text-base font-medium text-gray-400 rounded-md hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
-                            role="menuitem"
-                        >
-                            Sign out
-                        </a>
-                    </div>
                 </div>
             </div>
         </nav>
