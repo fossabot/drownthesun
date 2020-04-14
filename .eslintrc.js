@@ -13,6 +13,7 @@ module.exports = {
     sourceType: "module" // Allows for the use of imports
   },
   rules: {
+    "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
   },
   settings: {
