@@ -46,7 +46,7 @@ const Navbar = (props: Props) => {
                         <NavbarButton href="/" name="Home"></NavbarButton>
                         <NavbarButton href="#" name="Music"></NavbarButton>
                         <NavbarButton href="/tour" name="Tour"></NavbarButton>
-                        <NavbarButton href="#" name="Contact"></NavbarButton>
+                        <NavbarButton href="contact" name="Contact"></NavbarButton>
                     </div>
                 </nav>
             </div>

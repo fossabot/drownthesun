@@ -7,12 +7,11 @@ import { url } from "inspector"
 
 const About: NextPage = () => (
     <Layout>
-        <div
-            className="h-screen bg-carbon-900"        >
+        <div className="h-screen bg-carbon-900">
             <div className="mx-auto max-w-screen-xl">
                 <Navbar desktopAlwaysOpen={true}></Navbar>
                 <div className="mx-auto max-w-screen-lg">
-                    <div className="mx-4 md:text-center mt-8">
+                    <div className="mx-4 mt-8 md:text-center">
                         <h3 className="mt-2 text-3xl font-extrabold tracking-tight text-red-600 leading-8 sm:text-4xl sm:leading-10">
                             Tour Dates
                         </h3>
