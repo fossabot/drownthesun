@@ -17,7 +17,7 @@ type ButtonProps = {
 const Button = (props: ButtonProps) => (
     <a
         href={props.href}
-        className={` ${props.className} flex items-center  border border-transparent justify-center m-4 px-4 py-2 rounded-sm focus:outline-none  transition duration-150 ease-in-out`}
+        className={` ${props.className} flex items-center  border border-transparent justify-center m-2 md:m-4 px-4 py-2 rounded-sm focus:outline-none  transition duration-150 ease-in-out`}
     >
         {props.name}
     </a>
@@ -54,9 +54,9 @@ const Concert = (props: Props) => (
                 </div>
             </div>
         </div>
-        <div className="justify-center mt-5 md:mt-0 md:ml-4 sm:flex md:justify-start md:items-center">
+        <div className="flex justify-center mt-2 md:mt-0 md:ml-4 md:justify-start md:items-center">
             <Button
-                className=" text-gray-900 bg-carbon-50 hover:text-black hover:shadow-glow hover:bg-white"
+                className=" text-gray-900 bg-carbon-50 hover:text-black hover:bg-white"
                 name="Event"
                 href="#"
             ></Button>
