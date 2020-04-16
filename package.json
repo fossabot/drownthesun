@@ -19,6 +19,7 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@datadog/browser-rum": "^1.9.4",
     "@types/node": "^13.11.0",
     "@types/react": "^16.9.32",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
