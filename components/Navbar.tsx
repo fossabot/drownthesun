@@ -47,7 +47,7 @@ const Navbar = (props: Props) => {
             </div>
 
             <div className={`sm:hidden ${mobileOpen ? "" : "hidden"} `}>
-        <div className="px-2 pt-2 pb-3 sm:px-3 bg-carbon-600">
+        <div className="px-2 pt-2 pb-3 sm:px-3 bg-carbon-900">
             <DropdownButton to="index" name="Home"></DropdownButton>
             <DropdownButton to="tour" name="Tour"></DropdownButton>
             <DropdownButton to="contact" name="Contact"></DropdownButton>
