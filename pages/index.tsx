@@ -35,8 +35,7 @@ const Home: NextPage = () => {
                             <div className="flex-grow">
                                 <div className="h-full sm:text-center lg:text-left">
                                     <div className="md:mt-20">
-
-                                    <Headline></Headline>
+                                        <Headline></Headline>
                                     </div>
                                     <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                         <div className="rounded-sm ">
@@ -44,7 +43,7 @@ const Home: NextPage = () => {
                                                 href="#tour"
                                                 className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-gray-900 border border-transparent shadow leading-6 transition duration-150 ease-in-out bg-carbon-50 hover:text-black hover:shadow-glow hover:bg-white focus:outline-none focus:shadow-outline focus:border-red-300 md:py-4 md:text-lg md:px-10"
                                             >
-                                               Listen
+                                                Listen
                                             </a>
                                         </div>
                                         <div className="mt-3 rounded-sm sm:mt-0 sm:ml-3">
@@ -57,7 +56,7 @@ const Home: NextPage = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="absolute flex bottom-0 mb-8 justify-center -mt-4 lg:justify-start items-between">
+                                <div className="absolute bottom-0 flex justify-center mb-8 -mt-4 lg:justify-start items-between">
                                     <SocialMedia></SocialMedia>
                                 </div>
                             </div>
@@ -80,7 +79,7 @@ const Home: NextPage = () => {
                     />
                 </div>
             </section>
-            <section className="min-h-screen min-h-full pt-8 md:pt-40 bg-carbon-900" id="tour">
+            <section className="min-h-full min-h-screen pt-8 md:pt-40 bg-carbon-900" id="tour">
                 <Tour></Tour>
             </section>
         </div>
