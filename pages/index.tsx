@@ -80,7 +80,7 @@ const Home: NextPage = () => {
                     />
                 </div>
             </section>
-            <section className="min-h-screen min-h-full pt-40 bg-carbon-900" id="tour">
+            <section className="min-h-screen min-h-full pt-8 md:pt-40 bg-carbon-900" id="tour">
                 <Tour></Tour>
             </section>
         </div>
