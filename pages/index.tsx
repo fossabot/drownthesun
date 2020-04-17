@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 
+import Head from "next/head"
 import Headline from "../components/Headline"
 import Layout from "../components/Layout"
 import { Link } from "react-scroll"
@@ -11,10 +12,27 @@ import Tour from "../components/Tour"
 const Home: NextPage = () => {
     return (
         <Layout>
+            <Head>
+                <meta charSet="utf-8" />
+                <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+                <meta
+                    name="viewport"
+                    content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+                />
+                <meta name="description" content="Description" />
+                <meta name="keywords" content="Keywords" />
+                <title>Next.js PWA Example</title>
+
+                <link rel="manifest" href="/manifest.json" />
+                <link href="/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16" />
+                <link href="/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32" />
+                <link rel="apple-touch-icon" href="/apple-icon.png"></link>
+                <meta name="theme-color" content="#317EFB" />
+            </Head>
             <Navbar></Navbar>
 
             <section className="min-h-screen pt-16 overflow-hidden md:pt-0" id="index">
-                <div className="relative z-10 flex flex-col min-h-screen pb-8 bg-carbon-900  lg:max-w-2xl lg:w-full lg:pb-28">
+                <div className="relative z-10 flex flex-col min-h-screen pb-8 bg-carbon-900 lg:max-w-2xl lg:w-full lg:pb-28">
                     <div className="flex flex-grow px-4 mx-auto mt-10 max-w-screen-xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                         <div className="flex flex-col">
                             <div className="h-full sm:text-center lg:text-left">
