@@ -66,6 +66,9 @@ const Home: NextPage = () => {
             <section className="min-h-full min-h-screen pt-8 md:pt-40 bg-carbon-900" id="tour">
                 <Tour></Tour>
             </section>
+            <section>
+                <div className="h-screen"></div>
+            </section>
             <footer>Social links</footer>
         </Layout>
     )
