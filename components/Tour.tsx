@@ -11,7 +11,7 @@ const Tour = () => (
                     Mit dem neuen Album sind wir im Dezember wieder auf Tour. Oder sowas ähnliches.
                 </p>
             </div>
-            <div>
+            {/* <div>
                 <div className="sticky top-0 ...">Sticky Heading 1</div>
                 <p className="py-4">Quisque cursus...</p>
             </div>
@@ -22,7 +22,7 @@ const Tour = () => (
             <div>
                 <div className="sticky top-0 ...">Sticky Heading 3</div>
                 <p className="py-4">Nullam mauris...</p>
-            </div>
+            </div> */}
             <Concert country="GER" weekday="Fri" venue="Rock im Park" city="Nürnberg" date="Jun 5"></Concert>
             <Concert country="AUS" weekday="Thu" venue="Nova Rock" city="Kleylehof" date="Jun 11"></Concert>
             <Concert country="SWI" weekday="Thu" venue="Flugplatz Interlaken" city="Interlaken" date="Jun 19"></Concert>
