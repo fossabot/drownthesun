@@ -3,14 +3,12 @@ import React, { useState } from "react"
 import DropdownButton from "./DropdownButton"
 import Hamburger from "./Hamburger"
 import NavbarButton from "./NavbarButton"
-import NavbarDropdownMenu from "./NavbarDropdownMenu"
 import { useRouter } from "next/router"
 
 type Props = {
     desktopAlwaysOpen?: boolean
 }
 const Navbar = (props: Props) => {
-    const router = useRouter()
 
     const [desktopOpen, setDesktopOpen] = useState(props.desktopAlwaysOpen || false)
     const [mobileOpen, setMobileOpen] = useState(false)
@@ -21,11 +19,9 @@ const Navbar = (props: Props) => {
     }
     return (
         <>
-            <div className="px-4 pt-6 sm:px-6 lg:px-8 ">
+            <div className="px-4 py-6 sm:px-6 lg:px-8 ">
                 <nav
-                    className={`relative flex items-center justify-between sm:h-10 ${
-                        router.pathname === "/" ? "lg:justify-start" : ""
-                    }`}
+                    className="relative flex items-center justify-between sm:h-10 lg:justify-start"
                 >
                     <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                         <div className="flex items-center justify-between w-full sm:w-auto">
@@ -43,15 +39,20 @@ const Navbar = (props: Props) => {
                             desktopOpen ? "opacity-100 " : "translate-x-20 lg:-translate-x-20 hidden"
                         }`}
                     >
-                        <NavbarButton href="/" name="Home"></NavbarButton>
-                        <NavbarButton href="#" name="Music"></NavbarButton>
-                        <NavbarButton href="/tour" name="Tour"></NavbarButton>
-                        <NavbarButton href="contact" name="Contact"></NavbarButton>
+                        <NavbarButton to="index" name="Home"></NavbarButton>
+                        <NavbarButton to="tour" name="Tour"></NavbarButton>
+                        <NavbarButton to="contact" name="Contact"></NavbarButton>
                     </div>
                 </nav>
             </div>
 
-            <NavbarDropdownMenu open={mobileOpen}></NavbarDropdownMenu>
+            <div className={`sm:hidden ${mobileOpen ? "" : "hidden"} `}>
+        <div className="px-2 pt-2 pb-3 sm:px-3 bg-carbon-600">
+            <DropdownButton to="index" name="Home"></DropdownButton>
+            <DropdownButton to="tour" name="Tour"></DropdownButton>
+            <DropdownButton to="contact" name="Contact"></DropdownButton>
+        </div>
+    </div>
         </>
     )
 }
