@@ -4,12 +4,24 @@ const Tour = () => (
     <div className="mx-auto max-w-screen-xl">
         <div className="mx-auto max-w-screen-lg">
             <div className="mx-4 mt-8 md:text-center">
-                <h3 className="mt-2 text-3xl font-extrabold tracking-tight text-red-600 leading-8 sm:text-4xl sm:leading-10">
+                <h3 className="sticky top-0 mt-2 text-3xl font-extrabold tracking-tight text-red-600 leading-8 sm:text-4xl sm:leading-10">
                     Tour Dates
                 </h3>
                 <p className="max-w-2xl mt-4 text-xl text-gray-500 leading-7 md:mx-auto">
                     Mit dem neuen Album sind wir im Dezember wieder auf Tour. Oder sowas ähnliches.
                 </p>
+            </div>
+            <div>
+                <div className="sticky top-0 ...">Sticky Heading 1</div>
+                <p className="py-4">Quisque cursus...</p>
+            </div>
+            <div>
+                <div className="sticky top-0 ...">Sticky Heading 2</div>
+                <p className="py-4">Integer lacinia...</p>
+            </div>
+            <div>
+                <div className="sticky top-0 ...">Sticky Heading 3</div>
+                <p className="py-4">Nullam mauris...</p>
             </div>
             <Concert country="GER" weekday="Fri" venue="Rock im Park" city="Nürnberg" date="Jun 5"></Concert>
             <Concert country="AUS" weekday="Thu" venue="Nova Rock" city="Kleylehof" date="Jun 11"></Concert>

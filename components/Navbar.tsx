@@ -18,8 +18,8 @@ const Navbar = (props: Props) => {
     }
     return (
         <>
-            <div className="px-4 py-6 sm:px-6 lg:px-8 ">
-                <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start">
+            <div className="px-4 py-6 sm:px-6 lg:px-8 md:h-20">
+                <nav className="relative flex items-center justify-between lg:justify-start">
                     <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                         <div className="flex items-center justify-between w-full sm:w-auto">
                             <a className="sm:hidden" href="#">

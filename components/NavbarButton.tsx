@@ -11,7 +11,7 @@ const NavbarButton = (props: Props) => (
         spy={true}
         smooth={true}
         duration={500}
-        className="ml-8 text-sm font-bold transition ease-in-out duration-250 text-carbon-200 hover:text-carbon-50 focus:outline-none"
+        className="ml-8 text-sm font-bold transition ease-in-out duration-250 text-carbon-100 hover:text-white focus:outline-none"
         href=""
     >
         {props.name}
