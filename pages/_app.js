@@ -6,8 +6,8 @@ import React from "react"
 import { datadogRum } from "@datadog/browser-rum"
 
 datadogRum.init({
-    applicationId: "93088fef-068e-40d6-84b8-85e1b59022cd",
-    clientToken: "pub38181cdb8620c0db19ed65033a631bec",
+    clientToken: 'pubc63b46dfa92d7bda534a3f2167758d04',
+    applicationId: 'cacffabb-fcc6-4fd4-b69c-e3aa6840c7dc',
     datacenter: "eu",
     sampleRate: 100,
 })
