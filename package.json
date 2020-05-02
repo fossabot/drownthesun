@@ -24,11 +24,13 @@
   },
   "devDependencies": {
     "@datadog/browser-rum": "^1.9.4",
+    "@sendgrid/mail": "^7.1.0",
     "@types/node": "^13.11.0",
     "@types/react": "^16.9.32",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.26.0",
     "autoprefixer": "^9.7.5",
+    "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
