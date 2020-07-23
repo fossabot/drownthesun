@@ -1,21 +1,27 @@
 import React, { useState } from "react"
+import path from "path"
 
 import Headline from "../components/Headline"
 import Layout from "../components/Layout"
-import { Link } from "react-scroll"
+import { ConcertType, concerts } from "../public/content/concerts"
+
 import Navbar from "../components/Navbar"
 import { NextPage } from "next"
 import SocialMedia from "../components/SocialMedia"
 import Tour from "../components/Tour"
 
-const Home: NextPage = () => {
+interface Props {
+    concerts?: ConcertType[]
+}
+
+const Home: NextPage<Props> = ({ concerts }) => {
     return (
         <Layout>
             <Navbar></Navbar>
 
             <section className="min-h-screen pt-16 overflow-hidden md:pt-0" id="index">
-                <div className="relative z-10 flex flex-col min-h-screen pb-8 bg-carbon-900  lg:max-w-2xl lg:w-full lg:pb-28">
-                    <div className="flex flex-grow px-4 mx-auto mt-10 max-w-screen-xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                <div className="relative z-10 flex flex-col min-h-screen pb-8 bg-carbon-900 lg:max-w-2xl lg:w-full lg:pb-28">
+                    <div className="flex flex-grow max-w-screen-xl px-4 mx-auto mt-10 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                         <div className="flex flex-col">
                             <div className="h-full sm:text-center lg:text-left">
                                 <div className="md:mt-20">
@@ -25,7 +31,7 @@ const Home: NextPage = () => {
                                     <div className="rounded-sm ">
                                         <a
                                             href="https://open.spotify.com/artist/2yFB2TDFWStvT5nYj8g8Hc?si=ZfTcfzjERci_O825wNvwFw"
-                                            className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-gray-900 border border-transparent shadow leading-6 transition duration-150 ease-in-out bg-carbon-50 hover:text-black hover:shadow-glow hover:bg-white focus:outline-none focus:shadow-outline focus:border-red-300 md:py-4 md:text-lg md:px-10"
+                                            className="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-gray-900 transition duration-150 ease-in-out border border-transparent shadow bg-carbon-50 hover:text-black hover:shadow-glow hover:bg-white focus:outline-none focus:shadow-outline focus:border-red-300 md:py-4 md:text-lg md:px-10"
                                             target="blank"
                                         >
                                             Listen
@@ -34,7 +40,7 @@ const Home: NextPage = () => {
                                     <div className="mt-3 rounded-sm sm:mt-0 sm:ml-3">
                                         <a
                                             href=""
-                                            className="flex items-center justify-center w-full px-8 py-3 text-base text-black bg-red-600 border border-transparent leading-6 transition duration-150 ease-in-out font-medium-md hover:bg-red-500 focus:outline-none focus:shadow-outline md:py-4 md:text-lg md:px-10"
+                                            className="flex items-center justify-center w-full px-8 py-3 text-base leading-6 text-black transition duration-150 ease-in-out bg-red-600 border border-transparent font-medium-md hover:bg-red-500 focus:outline-none focus:shadow-outline md:py-4 md:text-lg md:px-10"
                                         >
                                             Pre-Order Now
                                         </a>
@@ -63,8 +69,8 @@ const Home: NextPage = () => {
                     />
                 </div>
             </section>
-            <section className="min-h-full min-h-screen pt-8 md:pt-40 bg-carbon-900" id="tour">
-                <Tour></Tour>
+            <section className="min-h-screen pt-8 md:pt-40 bg-carbon-900" id="tour">
+                <Tour concerts={concerts}></Tour>
             </section>
             <section>
                 <div className="h-screen"></div>
@@ -72,6 +78,14 @@ const Home: NextPage = () => {
             <footer>Social links</footer>
         </Layout>
     )
+}
+
+export const getStaticProps = async () => {
+    return {
+        props: {
+            concerts,
+        },
+    }
 }
 
 export default Home

@@ -14,8 +14,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/react-scroll": "^1.5.4",
-    "logrocket": "^1.0.10",
     "next": "^9.4.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -23,9 +21,9 @@
     "start-server-and-test": "^1.11.0"
   },
   "devDependencies": {
-    "@datadog/browser-rum": "^1.9.4",
     "@types/node": "^13.11.0",
     "@types/react": "^16.9.32",
+    "@types/react-scroll": "^1.5.4",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.26.0",
     "autoprefixer": "^9.7.5",

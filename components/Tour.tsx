@@ -1,28 +1,42 @@
 import Concert from "./Concert"
-import Navbar from "./Navbar"
+import {ConcertType} from "../public/content/concerts"
+import { NextPage } from "next"
 import SectionHeadline from "./SectionHeadline"
-const Tour = () => (
-    <div className="mx-auto max-w-screen-xl">
-        <div className="mx-auto max-w-screen-lg">
-            <SectionHeadline name="Upcoming Tour / Concerts"></SectionHeadline>
 
-            <p className="max-w-2xl mt-4 text-xl text-gray-500 md:text-center leading-7 md:mx-auto">
-                Mit dem neuen Album sind wir im Dezember wieder auf Tour. Oder sowas ähnliches.
-            </p>
-            <Concert country="GER" weekday="Fri" venue="Rock im Park" city="Nürnberg" date="Jun 5"></Concert>
-            <Concert country="AUS" weekday="Thu" venue="Nova Rock" city="Kleylehof" date="Jun 11"></Concert>
-            <Concert country="SWI" weekday="Thu" venue="Flugplatz Interlaken" city="Interlaken" date="Jun 19"></Concert>
-            <Concert country="BEL" weekday="Fri" venue="Festivalpark Senehei" city="Dessel" date="Jun 20"></Concert>
-            <Concert country="FRA" weekday="Sat" venue="Hellfest" city="Clisson" date="Jun 26"></Concert>
+interface Props {
+    concerts?: ConcertType[]
+}
+
+const Tour: NextPage<Props> = ({ concerts }) => {
+    const tourDates = concerts ? (
+        concerts.map((concert: ConcertType) => (
             <Concert
-                country="GER"
-                weekday="Fri"
-                venue="Full Force Festival"
-                city="Gräfenheinichen"
-                date="Jul 9"
+                key={concert.city + concert.date}
+                country={concert.country}
+                weekday={concert.weekday}
+                venue={concert.venue}
+                city={concert.city}
+                date={concert.date}
             ></Concert>
+        ))
+    ) : (
+        <p className="px-8 mt-8 text-gray-500 md:text-center">
+            There are currently no concerts planned, please come back later.
+        </p>
+    )
+
+    return (
+        <div className="max-w-screen-xl mx-auto">
+            <div className="max-w-screen-lg mx-auto">
+                <SectionHeadline name="Upcoming Tour / Concerts"></SectionHeadline>
+
+                <p className="px-8 mt-4 text-xl leading-7 text-gray-500 sm:mx-auto md:text-center">
+                    Mit dem neuen Album sind wir im Dezember wieder auf Tour. Oder sowas ähnliches.
+                </p>
+                {tourDates}
+            </div>
         </div>
-    </div>
-)
+    )
+}
 
 export default Tour
